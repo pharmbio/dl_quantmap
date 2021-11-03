@@ -40,6 +40,8 @@ Give necessary input for all the .ipynb files.
 
 The order to run scripts:
 qmap_data_generation.ipynb
+ --> provide the database information
+
 data_preprossing_and_get_subset.ipynb
 get_protein_function_for_cid.ipynb
 
