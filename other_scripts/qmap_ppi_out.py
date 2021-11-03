@@ -16,7 +16,9 @@ from matplotlib import pyplot as plt
 
 # wrap with catch, etc
 # select db as arg?
-dbf = "/scratch-shared/akshai/Publication/qm_pr01_old_db.sqlite"
+dbf = ""
+stitch_table_name = ""
+string_table_name = ""
 
 dbh = sqlite3.connect(dbf)
 sth = dbh.cursor()
@@ -28,12 +30,12 @@ fail_no_cid = False
 chem_max    = 10
 chem_score  = 700
 chem_type   = "all"
-chem_prot   = "stitch_protchem_man"
+chem_prot   = stitch_table_name
 
 prot_max    = 150
 prot_score  = 700
 prot_type   = "sc_all"
-prot_prot   = "string_protlink_man"
+prot_prot   = string_table_name
 
 data_max    = 1000000
 ppi_max     = 200
@@ -56,20 +58,10 @@ def main():
         cents = centrality(ppi)
         coal = condense(cents)
 
-        #name = chems[cid] if names_long else f"CID{cid}"
         name = cid
         frames[name] = coal
     ppi_all = pd.DataFrame(frames)
     write_ppi_out(utfile,ppi_all)
-    #if len(frames) < 3:
-    #    warn("Too few chems passed PPI filters")
-    #    exit(1)
-    #ppi_all = pd.DataFrame(frames) # ; print(ppi_all)
-    #dm = compare_ppi(ppi_all)
-    #with open(utfile,"w") as outfile:
-    #    outfile.write(str(list(chems.keys()))[1:-1] + "\n")
-    #    for rows in dm:
-    #        outfile.write(str(list(rows))[1:-1] + "\n")
 
 
 def write_ppi_out(filename,panda_df):
@@ -133,7 +125,7 @@ def centrality(dat):
 
 def condense(df):
     df = df.median(axis=1)
-    df = df.sort_values()   # by
+    df = df.sort_values()
     return df.iloc[:ppi_max]
 
 
