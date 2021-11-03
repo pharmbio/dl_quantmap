@@ -1,0 +1,35 @@
+{"input_file_train" : "/scratch-shared/akshai/Publication/final_model/smiles_cluster_sanitized_0.005_train_set.txt",
+ "input_file_test" : "/scratch-shared/akshai/Publication/final_model/smiles_cluster_sanitized_0.005_test_set.txt",
+"trial" : false,
+"k_fold_value" : "1",
+"test_set_percentage" : "0.1",
+"Number_of_workers" : "8",
+"run_folder":"run_files_0.005",
+"gpu_id" : "1",
+"label_cutoff" : {
+                  "lower_label_count_cutoff" : "0",
+                  "upper_label_count_cutoff" : "1000000000"
+                  },
+"augmentation" : {
+                  "label_wise_augmentation" : true,
+                  "number_of_augmentation" : "1",
+                  "iteration" : "1000000"
+                  },
+"tokens" : {
+            "_comment" : "tokenization can be either of SPE, atomwise",
+            "tokenization" : "SPE",
+            "spe_token_path" : "pretraining_tokens.txt"
+            },
+"pretrained_model" : {
+                      "load_model" : true,
+                      "pretrained_model_path" : "/scratch-shared/akshai/Publication/initial_models/new_runs/molpmofit_smilespe/SPE/pretraining/models/",
+                      "pretraining_new_wt" : "pretraining_wt",
+                      "pretraining_new_vocab" : "pretraining_vocab"
+                     },
+"network_parameters" : {
+                        "epochs" : "50",
+                        "batch_size" : "64",
+                        "learning_rate" : "1e-3",
+                        "enable_class_weight" : true
+                        }
+}

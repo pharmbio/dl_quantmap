@@ -1,0 +1,25 @@
+{"input_file_train" : "train_set.txt",
+ "input_file_test" : "test_set.txt",
+"trial" : false,
+"k_fold_value" : "10",
+"test_set_percentage" : "0.1",
+ "run_folder":"run_files_0.1",
+ "gpu_id" : "0",
+"fingerprint" : {
+                "_comment" : "morgan, topological, MACCS and atompairs",
+                "fingerprint_type" : "morgan",
+                "fingerprint_size" : "1024",
+                "radius" : "2"
+                },
+"label_cutoff" : {
+                "enable_label_cutoff" : true,
+                "lower_label_count_cutoff" : "0",
+                "upper_label_count_cutoff" : "5000000"
+                },
+"network_parameters" : {
+                        "epochs" : "50",
+                        "learning_rate" : "1e-5",
+                        "batch_size" : "32",
+                        "enable_class_weight" : true
+                        }
+}

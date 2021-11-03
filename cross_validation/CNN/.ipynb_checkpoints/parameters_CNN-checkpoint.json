@@ -1,0 +1,46 @@
+{"input_file_train" : "train_set.txt",
+ "input_file_test" : "test_set.txt",
+"trial" : false,
+"k_fold_value" : "10",
+"test_set_percentage" : "0.1",
+ "run_folder":"run_files_0.01",
+ "gpu_id" : "2",
+"label_cutoff" : {
+                "enable_label_cutoff" : true,
+                "lower_label_count_cutoff" : "0",
+                "upper_label_count_cutoff" : "10000000"
+                },
+"sequence_length_cutoff" : {
+                            "lensize" : "42",
+                            "atomsize" : "400"
+                            },
+"conv1" :{ "_comments" : "k=window size,s=strides,f=number of filters",
+        "k1" : "11",
+        "s1" : "1",
+        "f1" : "128"
+        },
+"pool1" : {
+        "k2" : "5",
+        "s2" : "1"
+        },
+"conv2" : {
+        "k3" : "11",
+        "s3" : "1",
+        "f3" : "64"
+        },
+"pool2" : {
+        "k4" : "5",
+        "s4" : "1"
+        },
+"fc_layer_parameters" : {
+                        "n_hid" : "96",
+                        "n_out" : "20"
+                        },
+"network_parameters" : {
+                        "optimizer" : "adam",
+                        "batchsize" : "32",
+                        "epochs" : "50",
+                        "learning_rate" : "1e-3",
+                        "enable_class_weight" : true
+                        }
+}
