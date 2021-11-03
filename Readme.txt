@@ -4,7 +4,7 @@ supp_script_path = '<supp_script_path>'
 
 
 In each parameter_?.json file, provide necessary paths
-input_file_train = traink and valid set combined file path.
+input_file_train = train and valid set combined file path.
 input_file_test = test set path
 
 pretrained_model_path = pretrained model path for molpmofit model
@@ -33,8 +33,8 @@ Mask the below line in the script to avoid valid and test set augmentation
 
 
 The workflow is
-With the obtained STITCH and STRING for humans
-enter into a SQL database, with different table names
+With the obtained STITCH and STRING data for humans
+enter into a SQL database, under different table
 
 Give necessary input for all the .ipynb files.
 
