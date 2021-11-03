@@ -37,17 +37,21 @@ With the obtained STITCH and STRING data for humans
 enter into a SQL database, under different table
 
 Give necessary input for all the .ipynb files.
+database path and table names path in qmap_ppi_out.py 
 
 The order to run scripts:
 qmap_data_generation.ipynb
- --> provide the database information
+    --> provide the database path and table names in the second column
 
 data_preprossing_and_get_subset.ipynb
 get_protein_function_for_cid.ipynb
-
+    --> provide db path and download stitch protein database for humans path
+    
+    
 # Using the above output for the necessary distance threshold dataset with support greater than specified
 RUN cross validation using the scripts in cross_validation folder.
 For the final model run final_run with desired data input
+
 
 To test desired chemicals, either "cid" or "cid name_of_the_chemical" can be provided to the script predict_new_chem.ipynb.
 
