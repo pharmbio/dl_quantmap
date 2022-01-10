@@ -20,8 +20,7 @@ pretrained_model_path = pretrained model path for molpmofit model
 
 
 
-## Mask the below line in the script to avoid valid and test set augmentation
-
+## Mask the below line in each model script to avoid valid and test set augmentation
 ```python
 valid_augmentation_list = su.get_augmentation_list(valid_df,number_of_augmentation)
 number_of_augmentation_valid = valid_augmentation_list
