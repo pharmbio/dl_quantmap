@@ -1,7 +1,7 @@
 ## Predicting protein network topology clusters from chemical structure using deep learning
 
 
-Here, we present a method to predict biological functions of chemicals. The network topology analysis from 1st paper and second paper were extended using deep learning to predict the function of unknown chemicals. [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+Here, we present a method to predict biological functions of chemicals. The network topology analysis from "[Assessing relative bioactivity of chemical substances using quantitative molecular network topology analysis](https://pubmed.ncbi.nlm.nih.gov/22482822/)" and second paper were extended using deep learning to predict the function of unknown chemicals. 
 
 
 
