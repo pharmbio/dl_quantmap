@@ -61,4 +61,4 @@ To test desired chemicals, either "cid" or "cid name_of_the_chemical" can be pro
   
   
 Please cite: Predicting protein network topology clusters from chemical structure using deep learning  
-Submitted  
+Status: Submitted  
