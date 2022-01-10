@@ -5,18 +5,18 @@ Here, we present a method to predict biological functions of chemicals. The netw
 
 
 
-## Steps
-
-In each ipynb file, provide the path for the supp_scrips
+## Steps  
+  
+In each ipynb file, provide the path for the supp_scrips  
 supp_script_path = '<supp_script_path>'
-
-
-
-In each parameter_?.json file, provide necessary paths
-input_file_train = train and valid set combined file path.
-input_file_test = test set path
-
-pretrained_model_path = pretrained model path for molpmofit model
+  
+  
+  
+In each parameter_?.json file, provide necessary paths  
+input_file_train = train and valid set combined file path.  
+input_file_test = test set path  
+  
+pretrained_model_path = pretrained model path for molpmofit model  
 
 
 
