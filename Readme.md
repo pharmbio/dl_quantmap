@@ -23,17 +23,17 @@ pretrained_model_path = pretrained model path for molpmofit model
 ## Mask the below line in the script to avoid valid and test set augmentation
 
 '''python
-#valid_augmentation_list = su.get_augmentation_list(valid_df,number_of_augmentation)
-#number_of_augmentation_valid = valid_augmentation_list
+valid_augmentation_list = su.get_augmentation_list(valid_df,number_of_augmentation)
+number_of_augmentation_valid = valid_augmentation_list
 
-#test_augmentation_list = su.get_augmentation_list(test_df,number_of_augmentation)
-#number_of_augmentation_test = test_augmentation_list
+test_augmentation_list = su.get_augmentation_list(test_df,number_of_augmentation)
+number_of_augmentation_test = test_augmentation_list
             
             
             
-#number_of_augmentation_valid = number_of_augmentation
-#if fold == 0:
-#    number_of_augmentation_test = number_of_augmentation
+number_of_augmentation_valid = number_of_augmentation
+if fold == 0:
+    number_of_augmentation_test = number_of_augmentation
 '''
 
 
