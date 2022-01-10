@@ -36,7 +36,7 @@ if fold == 0:
 
 
 
-## The workflow is
+## The workflow
 With the obtained STITCH and STRING data for humans
 enter into a SQL database, under different table
 
@@ -61,4 +61,6 @@ To test desired chemicals, either "cid" or "cid name_of_the_chemical" can be pro
 
 
 Please cite: Predicting protein network topology clusters from chemical structure using deep learning
+
+
 Submitted
