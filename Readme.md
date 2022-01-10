@@ -59,4 +59,10 @@ For the final model run final_run with desired data input
 To test desired chemicals, either "cid" or "cid name_of_the_chemical" can be provided to the script predict_new_chem.ipynb.
 
 ## Citation
+
+
+Please cite: 
+
+'''json
 Submitted
+'''
