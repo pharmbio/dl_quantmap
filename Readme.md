@@ -30,7 +30,6 @@ test_augmentation_list = su.get_augmentation_list(test_df,number_of_augmentation
 number_of_augmentation_test = test_augmentation_list
             
             
-            
 number_of_augmentation_valid = number_of_augmentation
 if fold == 0:
     number_of_augmentation_test = number_of_augmentation
