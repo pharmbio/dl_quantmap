@@ -19,6 +19,7 @@ from torch.autograd import Variable
 # lensize = x-axis length
 # atomsize = y-axis length (determines the sequence length cutoff)
 # returns x and y
+# Function adapted from Hirohara et al
 def make_grid(file,lensize=42,atomsize=400):
     xp=np
     #print('Loading smiles: ', file)

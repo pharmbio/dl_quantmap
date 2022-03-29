@@ -1,4 +1,0 @@
-#path_syntax
-import sys
-sys.path.append('/scratch-shared/akshai/Publication/supp_script/')
-import supp_utils as su

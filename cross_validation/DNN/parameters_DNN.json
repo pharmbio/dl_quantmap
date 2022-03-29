@@ -1,9 +1,8 @@
-{"input_file_train" : "train_set.txt",
- "input_file_test" : "test_set.txt",
+{"input_file_train" : "../../data/cv_data_splits/train_0.001.txt",
+ "input_file_test" : "../../data/cv_data_splits/test_0.001.txt",
 "trial" : false,
 "k_fold_value" : "10",
-"test_set_percentage" : "0.1",
- "run_folder":"run_files_0.1",
+ "run_folder":"run_files_0.001",
  "gpu_id" : "0",
 "fingerprint" : {
                 "_comment" : "morgan, topological, MACCS and atompairs",

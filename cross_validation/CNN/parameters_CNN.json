@@ -1,10 +1,9 @@
-{"input_file_train" : "train_set.txt",
- "input_file_test" : "test_set.txt",
+{"input_file_train" : "../../data/data_splits/CV_train_0.001.txt",
+ "input_file_test" : "../../data/data_splits/CV_test_0.001.txt",
 "trial" : false,
 "k_fold_value" : "10",
-"test_set_percentage" : "0.1",
- "run_folder":"run_files_0.01",
- "gpu_id" : "2",
+ "run_folder":"run_files_0.001",
+ "gpu_id" : "0",
 "label_cutoff" : {
                 "enable_label_cutoff" : true,
                 "lower_label_count_cutoff" : "0",
@@ -33,8 +32,7 @@
         "s4" : "1"
         },
 "fc_layer_parameters" : {
-                        "n_hid" : "96",
-                        "n_out" : "20"
+                        "n_hid" : "96"
                         },
 "network_parameters" : {
                         "optimizer" : "adam",
