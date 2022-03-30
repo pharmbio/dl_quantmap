@@ -37,9 +37,12 @@ def smiles_fingerprint(smiles,ftype,radius=None,bits=2048,return_as_fp=False):
         m1 = Chem.MolFromSmiles(smiles)
     except:
         print (smiles)
+    
     if ftype == "morgan":
-        fp1 = AllChem.GetMorganFingerprintAsBitVect(m1,radius,nBits=bits)
-        
+        try:
+            fp1 = AllChem.GetMorganFingerprintAsBitVect(m1,radius,nBits=bits)
+        except:
+            print (smiles)
     if ftype == "topological":
         fp1 = Chem.RDKFingerprint(m1)
         

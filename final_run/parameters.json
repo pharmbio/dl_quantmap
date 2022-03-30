@@ -1,18 +1,13 @@
-{"input_file_train" : "../data/data_splits/train_0.001.txt",
- "input_file_valid" : "../data/data_splits/valid_0.001.txt",
- "input_file_test" : "../data/data_splits/test_0.001.txt",
+{"input_file_train" : "../data/data_splits/train_0.005.txt",
+ "input_file_valid" : "../data/data_splits/valid_0.005.txt",
+ "input_file_test" : "../data/data_splits/test_0.005.txt",
 "trial" : false,
-"k_fold_value" : "1",
 "Number_of_workers" : "8",
-"run_folder":"run_files_0.001",
+"run_folder":"run_files_0.005",
 "gpu_id" : "0",
-"label_cutoff" : {
-                  "lower_label_count_cutoff" : "0",
-                  "upper_label_count_cutoff" : "1000000000"
-                  },
 "augmentation" : {
                   "label_wise_augmentation" : true,
-                  "number_of_augmentation" : "1",
+                  "number_of_augmentation" : "0",
                   "iteration" : "1000000"
                   },
 "tokens" : {
@@ -27,9 +22,7 @@
                       "pretraining_new_vocab" : "pretraining_vocab"
                      },
 "network_parameters" : {
-                        "epochs" : "50",
                         "batch_size" : "64",
-                        "learning_rate" : "1e-3",
                         "enable_class_weight" : true
                         }
 }

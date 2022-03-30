@@ -1,15 +1,10 @@
-{"input_file_train" : "../../data/cv_data_splits/train_0.001.txt",
- "input_file_test" : "../../data/cv_data_splits/test_0.001.txt",
+{"input_file_train" : "../../data/data_splits/CV_train_0.005.txt",
+ "input_file_test" : "../../data/data_splits/CV_test_0.005.txt",
 "trial" : false,
 "k_fold_value" : "10",
  "Number_of_workers" : "8",
- "run_folder":"run_files_0.001",
+ "run_folder":"run_files_0.005",
  "gpu_id" : "0",
-"label_cutoff" : {
-                  "enable_label_cutoff" : true,
-                  "lower_label_count_cutoff" : "0",
-                  "upper_label_count_cutoff" : "50000000"
-                  },
 "sequence_length_cutoff" : {
                             "lower_cutoff" : "0",
                             "upper_cutoff" : "150000000"
