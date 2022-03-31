@@ -18,7 +18,7 @@ The scrips are run in order.
 4. 4_get_protein_function_of_clusters.ipynb <br>
 <space><space>*<space><space> For the obtained clusters from above, function of proteins in the clusters were obtained and assigned as the function of the cluster. <br>
 6. 5_data_splits.ipynb <br>
-<space><space>*<space><space> Split the dataset for cross validation and final training of the model.
+  * Split the dataset for cross validation and final training of the model.
 
   
 ## Citation
