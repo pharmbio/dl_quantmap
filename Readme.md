@@ -9,7 +9,7 @@ Here, we present a method to predict biological functions of chemicals. The netw
   
 The data collection and preprocessing of the data is done using .ipynb files in preprocessing_scripts. <br>
 The scrips are run in order.
-1. 1_create_stitch_string_sql_db.ipynb
+1. 1_create_stitch_string_sql_db.ipynb <br>
 <space><space>*<space>adfda
 2. 2_data_generation.ipynb
 4. 3_data_preprocessing.ipynb
