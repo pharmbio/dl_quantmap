@@ -6,7 +6,20 @@ Here, we present a method to predict biological functions of chemicals. The netw
 
 
 ## Steps  
-  
+
+### Setting up the environment
+
+To create and activate the environment. <br>
+```bash
+conda env create -f environment.yaml
+conda activate qmpred
+```
+To export the conda environment to jupyter notebook. <br>
+```bash
+python -m ipykernel install --user --name=qmpred
+```
+
+
 ### Data preprocessing
 
 The data collection and preprocessing of the data is done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
