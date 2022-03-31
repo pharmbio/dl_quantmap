@@ -9,7 +9,7 @@ Here, we present a method to predict biological functions of chemicals. The netw
   
 ### Data preprocessing
 
-The data collection and preprocessing of the data is done using .ipynb files in preprocessing_scripts. <br>
+The data collection and preprocessing of the data is done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
 The scrips are run in order. <br>
 1. [1_create_stitch_string_sql_db.ipynb](preprocessing_scripts/1_create_stitch_string_sql_db.ipynb)  <br>
     * Download and convert necessary data from STITCH and STRING to sql database. <br><br>
