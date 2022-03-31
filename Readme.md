@@ -19,7 +19,7 @@ The scrips are run in order. <br>
     * Clusters are based on support per clusters. Clusters with lower support are rejected. <br><br>
 4. [4_get_protein_function_of_clusters.ipynb](preprocessing_scripts/4_get_protein_function_of_clusters.ipynb)  <br> 
     * For the obtained clusters from above, function of proteins in the clusters were obtained and assigned as the function of the cluster. <br><br>
-6. [ 5_data_splits.ipynb ](preprocessing_scripts/ 5_data_splits.ipynb )  <br>
+6. [5_data_splits.ipynb ](preprocessing_scripts/5_data_splits.ipynb )  <br>
     * Split the dataset for cross validation and final training of the model. <br><br>
 
 
