@@ -7,8 +7,8 @@ Here, we present a method to predict biological functions of chemicals. The netw
 
 ## Steps  
   
-In each ipynb file, provide the path for the supp_scrips  
-supp_script_path = '<supp_script_path>'
+The data collection and preprocessing of the data is done using .ipynb files in preprocessing_scripts. <br>
+
   
   
   
@@ -19,20 +19,6 @@ input_file_test = test set path
 pretrained_model_path = pretrained model path for molpmofit model  
 
 
-
-## Mask the below line in each model script to avoid valid and test set augmentation
-```python
-valid_augmentation_list = su.get_augmentation_list(valid_df,number_of_augmentation)
-number_of_augmentation_valid = valid_augmentation_list
-
-test_augmentation_list = su.get_augmentation_list(test_df,number_of_augmentation)
-number_of_augmentation_test = test_augmentation_list
-            
-            
-number_of_augmentation_valid = number_of_augmentation
-if fold == 0:
-    number_of_augmentation_test = number_of_augmentation
-```
 
 
 
