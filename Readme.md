@@ -7,7 +7,7 @@ Here, we present a method to predict biological functions of chemicals. The netw
 
 ## Steps  
 <br>
-
+---
 ### Setting up the environment
 
 To create and activate the environment. <br>
@@ -23,7 +23,6 @@ python -m ipykernel install --user --name=qmpred
 
 ---
 ### Data preprocessing
----
 
 The data collection and preprocessing of the data is done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
 The scrips are run in order. <br>
