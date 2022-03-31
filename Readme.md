@@ -26,11 +26,12 @@ The scrips are run in order. <br>
 ### Training
 Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory cross_validation. The parameters for the architectures can be passed using respective json file. <br><br><br>
 
-For the final training of the MolPMoFiT architecture the entire dataset is used. The parameters can be passed using parameters.json file. In order to run the final training of the MolPMoFiT, pretraining of the architecture has to be carried out using 
-[cross_validation/molpmofit/pretraining_molpmofit.ipynb](cross_validation/molpmofit/pretraining_molpmofit.ipynb).
+For the final training of the MolPMoFiT architecture the entire dataset is used. The parameters can be passed using [parameters.json](final_run/parameters.json) file. In order to run the final training of the MolPMoFiT, pretraining of the architecture has to be carried out using 
+[pretraining_molpmofit.ipynb](cross_validation/molpmofit/pretraining_molpmofit.ipynb). Post training, the model can be used to predict using [predict_new_chem.ipynb](final_run/predict_new_chem.ipynb). The input for the prediction can be given in the text file "[test_cids.txt](final_run/test_cids.txt)" as CIDs as input where each CID is provided in a new line.
+
+
   
 ## Citation
-  
   
 Please cite: Predicting protein network topology clusters from chemical structure using deep learning  
 Status: Submitted  
