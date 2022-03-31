@@ -25,7 +25,7 @@ The scrips are run in order. <br>
 
 ### Evaluation
 
-Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory cross_validation. The parameters for the architectures can be passed using respective json file. <br><br>
+Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory [cross_validation](cross_validation). The parameters for the architectures can be passed using respective json file. <br><br>
 
 ### Training
 
