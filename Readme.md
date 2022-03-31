@@ -23,8 +23,11 @@ The scrips are run in order. <br>
     * Split the dataset for cross validation and final training of the model. <br><br>
 
 
+### Training
+Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory cross_validation. The parameters for the architectures can be passed using respective json file. <br><br><br>
 
-
+For the final training of the MolPMoFiT architecture the entire dataset is used. The parameters can be passed using parameters.json file. In order to run the final training of the MolPMoFiT, pretraining of the architecture has to be carried out using 
+[cross_validation/molpmofit/pretraining_molpmofit.ipynb](cross_validation/molpmofit/pretraining_molpmofit.ipynb).
   
 ## Citation
   
