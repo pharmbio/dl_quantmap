@@ -1,0 +1,11 @@
+5288826 Morphine
+5284595 Nalorphine
+6249 Ampicillin
+2349 Penicillin
+5816 Epinephrine
+439260 Norepinephrine
+23676225 Estrogen
+2726 Chlorpromazine
+3696 Imipramine
+4927 Promethazine
+2995 Desipramine 
