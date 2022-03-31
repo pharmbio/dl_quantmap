@@ -19,7 +19,10 @@ To export the conda environment to jupyter notebook. <br>
 python -m ipykernel install --user --name=qmpred
 ```
 <br>
+
 ---
+
+
 ### Data preprocessing
 
 The data collection and preprocessing of the data is done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
