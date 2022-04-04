@@ -44,8 +44,8 @@ Initially different architectures are evaluated using cross validation using a s
 ---
 ### Training
 
-For the final training of the [MolPMoFiT](final_run/molpmofit_run.ipynb) architecture the entire dataset is used. The parameters can be passed using [parameters.json](final_run/parameters.json) file. In order to run the final training of the MolPMoFiT, pretraining of the architecture has to be carried out using 
-[pretraining_molpmofit.ipynb](cross_validation/molpmofit/pretraining_molpmofit.ipynb). Post training, the model can be used to predict using [predict_new_chem.ipynb](final_run/predict_new_chem.ipynb). The input for the prediction can be given in the text file "[test_cids.txt](final_run/test_cids.txt)" as CIDs as input. <br><br>
+For the final training of the [MolPMoFiT](final_run/molpmofit_run.ipynb) architecture, the entire dataset is used. The parameters can be passed using [parameters.json](final_run/parameters.json) file. In order to run the final training of the MolPMoFiT, pretraining of the architecture has to be carried out using 
+[pretraining_molpmofit.ipynb](cross_validation/molpmofit/pretraining_molpmofit.ipynb). Post training of the final model, it can be used to predict using [predict_new_chem.ipynb](final_run/predict_new_chem.ipynb). The input for the prediction can be given in the text file "[test_cids.txt](final_run/test_cids.txt)" as CIDs as input. <br><br>
 
 
 ---
