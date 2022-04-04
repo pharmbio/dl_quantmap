@@ -25,23 +25,22 @@ python -m ipykernel install --user --name=qmpred
 ---
 ### Data preprocessing
 
-The data collection and preprocessing of the data is done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
-The scrips are run in order. <br>
+The data collection and preprocessing of the data are done using [.ipynb files in preprocessing_scripts](preprocessing_scripts). <br>
 1. [1_create_stitch_string_sql_db.ipynb](preprocessing_scripts/1_create_stitch_string_sql_db.ipynb)  <br>
     * Download and convert necessary data from STITCH and STRING to sql database. <br><br>
 2. [2_data_generation.ipynb](preprocessing_scripts/2_data_generation.ipynb)  <br> 
-    * From the interaction data from the above step. Quantmap is ran for the dataset. The data is then converted to clusters based on their similarity using K-Mean clustering using different distance parameters.<br><br>
+    * Quantmap is ran using the interaction data from the databases. The data is then converted to clusters based on their similarity using K-Mean clustering using different distance parameters.<br><br>
 3. [3_data_preprocessing.ipynb](preprocessing_scripts/3_data_preprocessing.ipynb)  <br> 
-    * Clusters are based on support per clusters. Clusters with lower support are rejected. <br><br>
+    * From all the clusters obtained from the above step, clusters with lower support are rejected. <br><br>
 4. [4_get_protein_function_of_clusters.ipynb](preprocessing_scripts/4_get_protein_function_of_clusters.ipynb)  <br> 
-    * For the obtained clusters from above, function of proteins in the clusters were obtained and assigned as the function of the cluster. <br><br>
+    * For the selected clusters from above, using chemical-protein information from STITCH, function of proteins in the clusters are obtained and assigned as the function of the cluster. <br><br>
 6. [5_data_splits.ipynb ](preprocessing_scripts/5_data_splits.ipynb )  <br>
     * Split the dataset for cross validation and final training of the model. <br><br>
 
 ---
 ### Evaluation
 
-Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory [cross_validation](cross_validation). The parameters for the architectures can be passed using respective json file. <br><br>
+Initially different architectures are evaluated using cross validation using a subset of data. Different architectures are present in the directory [cross_validation](cross_validation). The parameters for the architectures can be passed using respective json file (given are the default values). <br><br>
 
 ---
 ### Training
