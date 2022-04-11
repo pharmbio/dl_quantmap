@@ -1,5 +1,17 @@
 #!/usr/bin/env python
 
+###########################################################################
+# Code adapted from Schaal,                                               #
+# W., Hammerling, U., Gustafsson, M.G., Spjuth, O.:                       #
+# Automated QuantMap for rapid quantitative molecular                     #
+# network topology analysis. Bioinformatics 29(18), 2369–2370 (2013).     #
+# doi:10.1093/bioinformatics/btt390                                       #
+#                                                                         #
+# This script is used to generate QuantMap data and have been modified to #
+# fit the data size of the current project                                #
+###########################################################################
+
+
 import sys, os
 import sqlite3
 import numpy as np
