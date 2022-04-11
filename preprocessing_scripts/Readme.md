@@ -6,8 +6,7 @@ Here, we present a method to predict the clusters that new chemicals belong to b
 
 Provided are the data preprocessing scripts needed for this study. 
 
-
-qmap_ppi_out.py is used to generate QuantMap data and have been modified to fit the data size of the current project <br>
+[qmap_ppi_out.py](qmap_ppi_out.py) is used to generate QuantMap data and have been modified to fit the data size of the current project <br>
 Code adapted from Schaal,
 <br><em>W., Hammerling, U., Gustafsson, M.G., Spjuth, O.:</em>
 <em>Automated QuantMap for rapid quantitative molecular</em>
