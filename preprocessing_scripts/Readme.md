@@ -5,8 +5,6 @@ Here, we present a method to predict the clusters that new chemicals belong to b
 
 ---
 
-### Setting up the environment
-
 Provided are the data preprocessing scripts needed for this study. 
 
 
