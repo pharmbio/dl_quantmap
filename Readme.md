@@ -46,5 +46,7 @@ For the final training of the [MolPMoFiT](final_run/molpmofit_run.ipynb) archite
 
 ## Citation
   
-Please cite: Predicting protein network topology clusters from chemical structure using deep learning  
-Status: Submitted  
+Please cite:
+>Predicting protein network topology clusters from chemical structure using deep learning.<br>
+>Akshai Parakkal Sreenivasan, Philip J Harrison, Wesley Schaal, Damian J Matuszewski, Kim Kultima, and Ola Spjuth.<br>
+>Status: Submitted.
