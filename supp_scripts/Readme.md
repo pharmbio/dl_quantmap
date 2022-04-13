@@ -14,5 +14,7 @@ For the CNN arcitecture the necessary scripts are downloaded. These scripts are 
 
 ## Citation
   
-Please cite: Predicting protein network topology clusters from chemical structure using deep learning  
-Status: Submitted  
+Please cite:
+>Predicting protein network topology clusters from chemical structure using deep learning.<br>
+>Akshai Parakkal Sreenivasan, Philip J Harrison, Wesley Schaal, Damian J Matuszewski, Kim Kultima, and Ola Spjuth.<br>
+>Status: Submitted.
