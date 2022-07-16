@@ -1,4 +1,4 @@
-# Predicting protein network topology clusters from chemical structure using deep learning
+# [Predicting protein network topology clusters from chemical structure using deep learning](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-022-00622-7)
 Here, we present a method to predict the clusters that new chemicals belong to based on network topology. The network topology analyses from "[Assessing relative bioactivity of chemical substances using quantitative molecular network topology analysis](https://pubmed.ncbi.nlm.nih.gov/22482822/)" and "[Automated QuantMap for rapid quantitative molecular network topology analysis](https://pubmed.ncbi.nlm.nih.gov/23828784/)" were extended using deep learning to enable the assignment of new/unknown chemicals to predefined clusters. 
 ## Steps  
 <br>
@@ -49,4 +49,4 @@ For the final training of the [MolPMoFiT](final_run/molpmofit_run.ipynb) archite
 Please cite:
 >Predicting protein network topology clusters from chemical structure using deep learning.<br>
 >Akshai Parakkal Sreenivasan, Philip J Harrison, Wesley Schaal, Damian J Matuszewski, Kim Kultima, and Ola Spjuth.<br>
->Status: Submitted.
+>Status: Published.
